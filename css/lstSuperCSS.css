@@ -1,0 +1,18 @@
+h1 {
+   color:pink;
+   font-size: 60px;
+   font-family: Arial;
+}
+
+/* por class */
+.lista {
+   color:indigo;
+   font-size: 20px;
+   font-family: Arial;
+}
+
+.lista2 {
+   color:pink;
+   font-size: 20px;
+   font-family: Arial;
+}

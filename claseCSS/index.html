@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Clase CSS</title>
+
+   <!-- La buena practica es crear archivos de estilos para el proyecto -->
+   <link rel="stylesheet" href="./style.css" >
+   
+   <!-- No es recomendable usar las etiquetas style, ya que consumen mucho tiempo y recursos -->
+   <style>
+      p {
+         color:darkred;
+         font-size: 60px;
+      }
+   </style>
+</head>
+<body>
+   <!-- No es recomendable modificar el style en tag -->
+   <p style="color: darkblue;" style="font-size: 30px;">Parrafo azul</p>
+   <p>Parrafo darkred</p>
+   <p class="parrafo">Parrafo deepskyblue</p>
+
+</body>
+</html>
