@@ -1,0 +1,41 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+html {
+   font-size: 62.5%;
+}
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.d1, .d2, .d21, .d22, .d3 {
+   width: 100%;
+   min-width: 150px;
+   height: 150px;
+}
+
+.d1 {
+   background-color: #003476;
+}
+
+.d2 {
+   background-color: #033875c7;
+   height: auto;
+}
+
+.d21 {
+   background-color: #04806f;
+}
+
+.d22 {
+   background-color: #017c3f;
+}
+
+.d3 {
+   background-color: #478006;
+}

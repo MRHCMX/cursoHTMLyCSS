@@ -1,0 +1,19 @@
+.container {
+   width: 800px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.d1 {
+   width: 50%;
+   order: 1;
+}
+
+.d2 {
+   width: 100%;
+}
+
+.d3 {
+   width: 50%;
+   order: 2;
+}
